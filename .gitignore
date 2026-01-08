@@ -1,0 +1,85 @@
+# ================================
+# GLOBAL / GENERAL
+# ================================
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.bak
+
+# VS Code / IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+.idea/
+*.iml
+
+# ================================
+# JAVA (Spring Boot) - core-service-java
+# ================================
+core-service-java/target/
+core-service-java/*.jar
+core-service-java/*.war
+core-service-java/*.class
+core-service-java/.classpath
+core-service-java/.project
+core-service-java/.settings/
+
+# ================================
+# PYTHON - analytics-service-python
+# ================================
+analytics-service-python/__pycache__/
+analytics-service-python/*.pyc
+analytics-service-python/*.pyo
+analytics-service-python/*.pyd
+analytics-service-python/.env
+analytics-service-python/venv/
+analytics-service-python/.venv/
+analytics-service-python/env/
+analytics-service-python/.pytest_cache/
+
+# ================================
+# FLUTTER / DART
+# ================================
+flutter/.dart_tool/
+flutter/build/
+flutter/.flutter-plugins
+flutter/.flutter-plugins-dependencies
+flutter/.packages
+
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+
+# 🔴 Ignore platform-specific generated code (causes Swift, C++, Obj-C)
+flutter/android/
+flutter/ios/
+flutter/macos/
+flutter/windows/
+flutter/linux/
+
+frontend/android/
+frontend/ios/
+frontend/macos/
+frontend/windows/
+frontend/linux/
+
+# ================================
+# DOCUMENTATION
+# ================================
+docs/.DS_Store
+
+# ================================
+# NODE (if any future use)
+# ================================
+node_modules/
+
+# ================================
+# SECURITY
+# ================================
+.env
+*.pem
+*.key

@@ -52,3 +52,14 @@ frontend/build/
 frontend/.dart_tool/
 frontend/.flutter-plugins
 frontend/.flutter-plugins-dependencies
+
+# Flutter platforms
+frontend/ios/
+frontend/macos/
+frontend/windows/
+frontend/linux/
+frontend/android/
+
+# Flutter build
+frontend/build/
+frontend/.dart_tool/
