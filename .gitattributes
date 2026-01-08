@@ -14,3 +14,19 @@ web/** linguist-vendored
 *.dart linguist-detectable
 *.java linguist-detectable
 *.py linguist-detectable
+
+# Ignore generated / platform code from language stats
+flutter/android/* linguist-vendored
+flutter/ios/* linguist-vendored
+flutter/macos/* linguist-vendored
+flutter/windows/* linguist-vendored
+flutter/linux/* linguist-vendored
+
+frontend/android/* linguist-vendored
+frontend/ios/* linguist-vendored
+frontend/macos/* linguist-vendored
+frontend/windows/* linguist-vendored
+frontend/linux/* linguist-vendored
+
+**/build/* linguist-vendored
+**/venv/* linguist-vendored
