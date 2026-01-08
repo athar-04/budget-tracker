@@ -1,0 +1,16 @@
+# Exclude Flutter generated platform code
+android/** linguist-vendored
+ios/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+web/** linguist-vendored
+
+# Exclude generated/build files
+**/build/** linguist-generated
+**/generated/** linguist-generated
+
+# Mark actual project languages
+*.dart linguist-detectable
+*.java linguist-detectable
+*.py linguist-detectable
